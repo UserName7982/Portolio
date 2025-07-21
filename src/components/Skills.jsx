@@ -13,7 +13,8 @@ const skills = [
   { name: "MySql", level: 95, category: "BackEnd" },
 
   { name: "VS Code", level: 95, category: "Tools" },
-  { name: "Git/GitHub", level: 95, category: "Tools" },
+  { name: "Git/GitHub", level: 90, category: "Tools" },
+  { name: "Android Studio", level: 90, category: "Tools" },
 ];
 export const Skills = () => {
   const categorys = ["All", "Frontend", "BackEnd", "Tools"];

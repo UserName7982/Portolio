@@ -52,9 +52,9 @@ export const About = () => {
                   <Code className="w-6 h-6 text-primary" />
                 </div>
                 <div className=" text-left">
-                  <h4 className="font-semibold text-lg">Web development</h4>
+                  <h4 className="font-semibold text-lg">Software development</h4>
                   <p className="text-muted-foreground">
-                    creating the Resposive WebSite
+                    creating the Resposive WebSites and App
                   </p>
                 </div>
               </div>
@@ -65,9 +65,9 @@ export const About = () => {
                   <User className="w-6 h-6 text-primary" />
                 </div>
                 <div className=" text-left">
-                  <h4 className="font-semibold text-lg">Web development</h4>
+                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
                   <p className="text-muted-foreground">
-                    creating the Resposive WebSite
+                    Desiging the Resposive user interface and user experience.
                   </p>
                 </div>
               </div>
