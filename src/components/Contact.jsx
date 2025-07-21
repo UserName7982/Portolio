@@ -1,11 +1,7 @@
 import {
-  Contact2,
-  Instagram,
-  Linkedin,
   Mail,
   MapPin,
   Send,
-  Twitch,
 } from "lucide-react";
 import { cn } from "../lib/utils";
 import { useToast } from "../hook/use-toast.js";
@@ -70,20 +66,6 @@ export const Contact = () => {
                     India ,New Delhi
                   </a>
                 </div>
-              </div>
-            </div>
-            <div className="pt-8">
-              <h4 className="font-medium mb-4"> Contact Me</h4>
-              <div className="flex space-x-4 justify-center">
-                <a href="">
-                  <Linkedin />
-                </a>
-                <a href="">
-                  <Instagram />
-                </a>
-                <a href="">
-                  <Twitch />
-                </a>
               </div>
             </div>
           </div>

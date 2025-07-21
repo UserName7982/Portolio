@@ -18,7 +18,7 @@ const projects = [
     image:
       "/flappy_bird.jpg",
     tags: ["java","vs code","Git/GitHub"],
-    link: "https://github.com/UserName7982/scm",
+    link: "https://github.com/UserName7982/FlappyBird",
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const projects = [
     image:
       "/SCM.png",
     tags: ["Java", "TailWind Css", "JavaScript","Flowbite","MySql","vs code","Git/GitHub","Spring Boot","Spring Security"],
-    link: "https://github.com/UserName7982/FlappyBird",
+    link: "https://github.com/UserName7982/scm",
   },
    {
     id: 3,
@@ -36,7 +36,7 @@ const projects = [
     image:
       "portfolio.png",
     tags: ["React", "TailWind Css", "JavaScript","Html/Css","vs code","Git/GitHub"],
-    link: "https://github.com/UserName7982/FlappyBird",
+    link: "https://github.com/UserName7982/Portolio",
   },
 ];
 export const Projects = () => {
