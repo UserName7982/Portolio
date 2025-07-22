@@ -30,7 +30,7 @@ const projects = [
     link: "https://github.com/UserName7982/scm",
   },
    {
-    id: 3,
+    id: 4,
     title: "PortFolio",
     description: "Designed and developed a responsive, modern portfolio website to showcase personal projects and skills. Utilized React, Tailwind CSS, and JavaScript to create a dynamic and engaging user experience.  ",
     image:
@@ -67,8 +67,8 @@ export const Projects = () => {
               </div>
               <div className="p-6">
                 <div className=" flex flex-wrap gap-2 mb-2">
-                  {project.tags.map((tag) => (
-                    <span className="bg-secondary text-primary rounded-full px-1 py-0 text-xs font-medium">
+                  {project.tags.map((tag,inedx) => (
+                    <span key={inedx} className="bg-secondary text-primary rounded-full px-1 py-0 text-xs font-medium">
                       {tag}
                     </span>
                   ))}

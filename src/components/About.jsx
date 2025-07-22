@@ -38,7 +38,7 @@ export const About = () => {
                 Get in touch
               </a>
               <a
-                href="/Resume (2).pdf" download
+                href="/Resume.pdf" download
                 className="px-3 py-2 bg-transparent border border-primary rounded-full text-primary font-medium transition-all duration-300 hover:shadow-[0_0_10px_rgba(139,92,246,0.5)] hover:scale-105 active:scale-95"
               >
                 Download Resume

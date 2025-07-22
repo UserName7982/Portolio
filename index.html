@@ -2,9 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/Por.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <script>
+      // Read the saved theme (or default to 'dark'):
+      const saved = localStorage.getItem('theme') || 'dark';
+      // Apply it immediately:
+      if (saved === 'dark') {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+    </script>
+    <title>PorTfolio</title>
   </head>
   <body>
     <div id="root"></div>

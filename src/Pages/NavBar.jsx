@@ -71,7 +71,7 @@ export const NavBar = () => {
 
         <button
           onClick={() => setMenuOpen(!isMenuOpen)}
-          className="md:hidden text-foreground p-2 z-50"
+          className="md:hidden text-foreground p-2  z-50"
         >
           {isMenuOpen ? (
             <X className="text-foreground/80 hover:text-primary transition-colors duration-150" />
